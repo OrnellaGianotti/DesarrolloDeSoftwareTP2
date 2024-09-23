@@ -2,19 +2,15 @@
   text-align: center;
   font-family: Arial, sans-serif;
   margin: 20px;
-  background-color: rgb(206, 255, 196);
+  background-color: rgb(255, 255, 255);
   
 }
 .App h1 {
   color: #333; 
-  font-size: 2rem; 
+  font-size: 40px; 
   margin-bottom: 20px; 
 }
 
-.validacion-contraseña{
-  font-size: 12px;
-  color: #6bd6f9; 
-}
 
 .copiar-contraseña button {
   background-color: #4CAF50;
@@ -35,7 +31,11 @@
   margin-top: 10px;
 }
 
-  
 
+.validacion-contraseña p {
+  font-size: 12px;
+  margin-top: 14px;
+  color:black; 
+}
 
 

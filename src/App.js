@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import {Entradacontraseña} from './components/Entradacontraseña';
 import { Fortalezacontraseña } from './components/Fortalezacontraseña';
 import { Copiarcontraseña } from './components/Copiarcontraseña';
+import { GenerarContraseña } from './components/Generarcontraseña';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <Entradacontraseña contraseña={contraseña} setContraseña={setContraseña} /> 
       <Fortalezacontraseña contraseña={contraseña} />
       <Copiarcontraseña contraseña={contraseña}/>
+      <GenerarContraseña setContraseña={setContraseña}/>
     
     </div>
   );
